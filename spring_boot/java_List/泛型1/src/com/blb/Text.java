@@ -25,5 +25,6 @@ public class Text extends Order {
     public void text()
     {
         System.out.println("111111");
+        System.out.println("22222");
     }
 }
