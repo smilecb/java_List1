@@ -1,6 +1,7 @@
 package com.blb;
 
 import com.sun.org.apache.xpath.internal.operations.Or;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,5 +19,11 @@ public class Text extends Order {
             list.add(e);
         }
         return list;
+    }
+
+    @Test
+    public void text()
+    {
+        System.out.println("111111");
     }
 }
