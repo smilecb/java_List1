@@ -24,7 +24,7 @@ public class Text extends Order {
     @Test
     public void text()
     {
-        System.out.println("111111");
-        System.out.println("22222");
+        String s1 = 123 + "";
+        System.out.println(s1);
     }
 }
